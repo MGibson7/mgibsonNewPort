@@ -59,7 +59,7 @@ vertical-align: center;
 }
 
 .person img{
-    max-width: 30%;
+    max-width: 25%;
     opacity: 0.7;
     object-fit: contain;
     align-self: center;
@@ -76,7 +76,7 @@ vertical-align: center;
         align-items: center;
     }
     .testimonialOne{
-        font-size: 1vh;
+        font-size: 0.7vh;
         width: 100%;
         margin-bottom: 0.5vh;
         
