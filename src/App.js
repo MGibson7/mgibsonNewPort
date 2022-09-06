@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/home/Home";
+import ProjectOne from "./pages/projectone/ProjectOne";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import ProjectTwo from "./pages/projecttwo/ProjectTwo";
+import ProjectThree from "./pages/projectthree/ProjectThree";
+import ProjectFour from "./pages/projectfour/ProjectFour";
+import ProjectFive from "./pages/projectfive/ProjectFive";
+import Referral from "./pages/referrals/Referral";
+import Resume from "./pages/resume/Resume";
+import Youtube from "./pages/youtube/Youtube";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+  <Router>
+    <Routes>
+    <Route exact path="/" element = { <Home />}/>
+     <Route exact path="/projectOne" element = { <ProjectOne/>}/>
+     <Route exact path="/projectTwo" element = { <ProjectTwo/>}/>
+     <Route exact path="/projectThree" element = { <ProjectThree/>}/>
+     <Route exact path="/projectFour" element = { <ProjectFour/>}/>
+     <Route exact path="/projectFive" element = { <ProjectFive/>}/>
+     <Route exact path="/referrals" element = { <Referral/>}/>
+     <Route exact path="/resume" element = { <Resume/>}/>
+     <Route exact path="/youtube" element = { <Youtube/>}/>
+     
+
+    
+    
+
+    </Routes>
+    
+     
+
+  </Router>
+  </>
+
   );
 }
 

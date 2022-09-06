@@ -1,0 +1,66 @@
+.rightSide{
+    width: 30%;
+    vertical-align: center;
+    height: 100%;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.profilepic{
+    width: 50%;
+    height: auto;
+    border-radius: 3vw;
+
+}
+
+.rightSide *{
+    vertical-align: center;
+}
+
+.rightSide h1{
+    font-size: 3vh;
+}
+
+.skills{
+    display: flex;
+}
+
+.skill {
+    position: relative;
+  animation: run 3s linear infinite;
+  width: 15%;
+  object-fit: contain;
+}
+
+.skill img{
+    max-height: 5vh;
+    max-width: 5vw;
+}
+
+
+@keyframes run {
+  0% {
+      left: 0
+      
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(100% - 110%);
+    -webkit-transform: rotateY(180deg); 
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+    bottom: 100;
+     -webkit-transform: rotateY(0deg);
+  }
+}
+
+
+

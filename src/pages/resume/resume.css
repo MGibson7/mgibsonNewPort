@@ -1,0 +1,24 @@
+.mainResume{
+	background: rgb(25,9,227);
+background: linear-gradient(90deg, rgba(25,9,227,1) 0%, rgba(255,255,255,1) 35%, rgba(4,42,237,1) 63%, rgba(242,236,236,1) 100%);
+background-size: 400% 400%;	
+animation: gradient 15s ease infinite;
+    height: 98vh;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.featured{
+	display: flex;
+}

@@ -1,0 +1,21 @@
+.navMain{
+    width: 100%;
+    color: white;
+    opacity: 0.7;
+    height: 10vh;
+    display: flex;
+}
+
+.navMain *{
+    vertical-align: bottom;
+    margin-left: 1vw;
+}
+
+h1{
+    font-size: 5vh;
+}
+
+.port{
+    padding-top: 3vh;
+    font-size: 2vh;
+}

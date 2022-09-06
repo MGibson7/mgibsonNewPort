@@ -1,0 +1,119 @@
+.leftSide{
+    width: 70%;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5vh;
+}
+.squares{
+    width: 30%;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(5px);
+font-size: 45%;
+color: white;
+text-align: right;
+margin-top: 1%;
+margin-bottom: 1%;
+align-self: center;
+height: 25vh;
+margin-left: 0.5vw;
+display: flex;
+flex-direction: column;
+vertical-align: text-bottom;
+  justify-content: last baseline;
+  align-items: center;
+
+}
+
+.squares:hover{
+    border: 5px solid white;
+}
+
+.squareHome{
+    background-image: url("https://img.freepik.com/premium-vector/summer-cartoon-illustration-modern-cottage-house-among-trees-green-countryside-field-outside-town_134830-236.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.leftSide h1{
+    text-align: center;
+    font-size:3vh;
+    opacity: 0.9;
+}
+
+.squareProject{
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-halloween-background_23-2149064303.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+    
+}
+
+.squareProject2{
+    background-image: url("https://www.stockvault.net/data/2019/02/27/260820/preview16.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.squareProject3{
+    background-image: url("https://img.freepik.com/premium-vector/american-football-field-with-bright-lights_24911-57587.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.squareProject4{
+    background-image: url("https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmV0ZmxpeHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+
+}
+
+.squareProject5{
+    background-image: url("https://st.depositphotos.com/1160567/1952/i/450/depositphotos_19528501-stock-photo-net-worth-increase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+
+}
+
+.referralSquare{
+    background-image: url("https://media.istockphoto.com/photos/network-is-painted-by-hand-with-chalk-on-blackboard-picture-id1202462935?k=20&m=1202462935&s=612x612&w=0&h=vIPDqlhjnrZZwtANxSF9ojXWoChsyRqYHXpa-s4izPw=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.resumeSquare{
+    background-image: url("https://resumekraft.com/wp-content/uploads/edd/2019/04/dark-background-attractive-resume-template-1000x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.youtubeSquare{
+    background-image: url("https://media.istockphoto.com/photos/golden-youtube-play-icon-with-the-red-luxury-boxes-and-white-spheres-picture-id1353775192?b=1&k=20&m=1353775192&s=170667a&w=0&h=1H48V4VC62y2wrmTAA483ZmK_uqfloFr3XIp5q0e9Fg=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .leftSide h1{
+        text-align: center;
+        font-size:1vh;
+        opacity: 0.9;
+    }
+
+}

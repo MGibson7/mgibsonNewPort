@@ -1,0 +1,54 @@
+.rightSide{
+    width: 30%;
+    vertical-align: center;
+    height: 100%;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.projectFea{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.projectFea button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    align-self: center;
+    font-size: 100%;
+    margin-top: 0.5vh;
+    cursor: pointer;
+    border-radius: 1vw;
+}
+
+.projectFea button:hover{
+    transform: scale(1.2);
+}
+
+
+
+.iframeImg{
+    height: auto;
+    width: 0%;
+    align-self: center;
+}
+
+iframe{
+    width: 0%;
+    height: auto;
+
+}
+
+@media screen and (max-width: 700px){
+    .projectFea button{
+        font-size: 50%;
+    }
+
+}
+
