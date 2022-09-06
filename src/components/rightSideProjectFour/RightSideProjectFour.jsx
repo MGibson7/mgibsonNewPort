@@ -9,7 +9,7 @@ const RightSideProjectFour = () => {
   return (
     <div className = "rightSide">
       <div className="projectFea">
-        <iframe scrolling="no" className="iframeImg" src="https://algoflix.herokuapp.com/" title="AlgoFlix"></iframe>
+        <img scrolling="no" className="iframeImg" src="./algo.png" alt="AlgoFlix"></img>
         <a href="https://algoflix.herokuapp.com/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/algoflix" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay5}>INFO</button>

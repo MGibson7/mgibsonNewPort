@@ -9,7 +9,7 @@ const RightSideProjectFive = () => {
   return (
     <div className = "rightSide">
       <div className="projectFea">
-        <iframe scrolling="no" className="iframeImg" src="https://mgibson7.github.io/networthStatement/" title="AlgoFlix"></iframe>
+        <img scrolling="no" className="iframeImg" src="./mynet.png" alt="Networth"></img>
         <a href="https://mgibson7.github.io/networthStatement/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/networthStatement" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay5}>INFO</button>
