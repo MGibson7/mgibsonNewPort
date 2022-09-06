@@ -29,6 +29,7 @@
 
 .projectFea button:hover{
     transform: scale(1.2);
+    border: 1px solid white;
 }
 
 
