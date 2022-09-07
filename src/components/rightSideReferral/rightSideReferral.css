@@ -70,6 +70,12 @@ vertical-align: center;
     max-height: 30%;
 }
 
+.simpleImageSlide *{
+    background-size: contain !important;
+    background-repeat: no-repeat;
+
+}
+
 @media screen and (max-width: 1000px){
     .testimonialTests{
         flex-direction: column;
