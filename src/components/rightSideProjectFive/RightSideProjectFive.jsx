@@ -13,7 +13,7 @@ const RightSideProjectFive = () => {
         <a href="https://mgibson7.github.io/networthStatement/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/networthStatement" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay5}>INFO</button>
-        <p className="descript" style={{display: display5? 'flex' : 'none'}}>Networth Tool to Calculate and see where you stack up based on age </p>
+        <p className="descript" style={{display: display5? 'flex' : 'none'}}>A webapp for charting your networth and seeing where you stand. Utilizes vanilla Javascript and CSS  </p>
         </div> 
     </div>
   )
