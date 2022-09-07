@@ -115,5 +115,8 @@ vertical-align: text-bottom;
         font-size:1vh;
         opacity: 0.9;
     }
+    .squares{
+        height: 15vh;
+    }
 
 }
