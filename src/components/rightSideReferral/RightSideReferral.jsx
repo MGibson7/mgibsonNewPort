@@ -8,8 +8,8 @@ const RightSideReferral = () => {
     { url: "ref2.jpg" },
     { url: "ref3.jpg" },
   ];
-  const width = "25%";
-  const height = "25%";
+  const width = "30%";
+  const height = "30%";
   
   
   return (
@@ -26,7 +26,7 @@ const RightSideReferral = () => {
         showNavs={false}
         loop = {true}
         autoPlay = {true}
-        slideDuration = {3.5}
+        slideDuration = {4.5}
       />
 
       </div>

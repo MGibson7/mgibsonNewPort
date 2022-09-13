@@ -76,6 +76,10 @@ vertical-align: center;
 
 }
 
+SimpleImageSlider:hover{
+    transform: scale(1.5);
+}
+
 @media screen and (max-width: 1000px){
     .testimonialTests{
         flex-direction: column;
