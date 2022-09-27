@@ -1,24 +1,24 @@
 import NavBar from "../../components/navbar/NavBar"
-import RightSideProjectOne from "../../components/rightSideProjectOne/RightSideProjectOne"
+import RightSideProjectSix from "../../components/rightSideProjectSix/RightSideProjectSix"
 import Square from "../../components/squares/Square"
-import "./projectOne.css"
+import "./projectSix.css"
 
-const ProjectOne = () => {
+const ProjectSix = () => {
   return (
     <>
-
-    <div className="mainProjectOne">
+    <div className="mainProjectSix">
         <NavBar/>
         <div className="featured">
         <Square/>
-        <RightSideProjectOne/>
+        <RightSideProjectSix/>
 
         </div>
         
 
     </div>
     </>
+    
   )
 }
 
-export default ProjectOne
+export default ProjectSix

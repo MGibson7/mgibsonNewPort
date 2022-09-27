@@ -12,11 +12,14 @@ import ProjectFive from "./pages/projectfive/ProjectFive";
 import Referral from "./pages/referrals/Referral";
 import Resume from "./pages/resume/Resume";
 import Youtube from "./pages/youtube/Youtube";
+import ProjectSix from "./pages/projectsix/ProjectSix";
+import LinkedIn from "./pages/linkedin/LinkedIn";
 
 
 function App() {
   return (
     <>
+  
   <Router>
     <Routes>
     <Route exact path="/" element = { <Home />}/>
@@ -25,9 +28,11 @@ function App() {
      <Route exact path="/projectThree" element = { <ProjectThree/>}/>
      <Route exact path="/projectFour" element = { <ProjectFour/>}/>
      <Route exact path="/projectFive" element = { <ProjectFive/>}/>
+     <Route exact path="/projectSix" element = { <ProjectSix/>}/>
      <Route exact path="/referrals" element = { <Referral/>}/>
      <Route exact path="/resume" element = { <Resume/>}/>
      <Route exact path="/youtube" element = { <Youtube/>}/>
+     <Route exact path="/linkedin" element = { <LinkedIn/>}/>
      
 
     

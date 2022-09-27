@@ -5,6 +5,7 @@ import "./projectFive.css"
 
 const ProjectFive = () => {
   return (
+    <>
     <div className="mainProjectFive">
         <NavBar/>
         <div className="featured">
@@ -15,6 +16,7 @@ const ProjectFive = () => {
         
 
     </div>
+    </>
   )
 }
 

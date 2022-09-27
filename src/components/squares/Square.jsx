@@ -6,69 +6,80 @@ const Square = () => {
     <>
     <div className="leftSide">
     
-      <div className="squares squareHome">
-      <Link className="link" to = "/">
-        <h1>HOME</h1>
-        </Link>
-      </div>
     
-      
-      <div className="squares squareProject">
+
+      <Link className="link" to = "/projectSix">
+      <div className="squares squareProject6">
+        
+        
+        
+      </div>
+      </Link>
+    
       <Link className="link" to = "/projectOne">
-        <h1>PROJECT</h1>
-        </Link>
+      <div className="squares squareProject">
+      
+        
+        
 
       </div>
+      </Link>
       
       
+      <Link className="link" to = "/projectTwo">
       <div className="squares squareProject2">
-        <Link className="link" to = "/projectTwo">
-        <h1>PROJECT</h1>
-        </Link>
-       
+        
+      
+   
 
       </div>
+      </Link>
       
 
+      <Link className="link" to = "/projectThree">
       <div className="squares squareProject3">
-        <Link className="link" to = "/projectThree">
-        <h1>PROJECT</h1>
-        </Link>
-      
+        
 
       </div>
+      </Link>
+
+
+      <Link className="link" to = "/projectFour">
       <div className="squares squareProject4">
-        <Link className="link" to = "/projectFour">
-        <h1>PROJECT</h1>
-        </Link>
+        
+          </div>
+          </Link>
+
+
+          <Link className="link" to = "/projectFive">
+      <div className="squares squareProject5">
+        
+      </div>
+      </Link>
+
+      <Link className="link" to = "/linkedin">
+      <div className="squares squareHome">
+      
+        
+      </div>
+      </Link>
+
       
 
-      </div>
-      <div className="squares squareProject5">
-        <Link className="link" to = "/projectFive">
-        <h1>PROJECT</h1>
-        </Link>
-        
-      </div>
-      <div className="squares referralSquare">
-        <Link className="link" to = "/referrals">
-        <h1>REFERRALS</h1>
-        </Link>
-        
-      </div>
-
+      <Link className="link" to = "/resume">
       <div className="squares resumeSquare">
-        <Link className="link" to = "/resume">
-        <h1>RESUME</h1>
-        </Link>
+        
         
       </div>
+      </Link>
+
+
+      <Link className="link" to = "/youtube">
       <div className="squares youtubeSquare">
-        <Link className="link" to = "/youtube">
-        <h1>YOUTUBE</h1>
-        </Link>
+       
         
       </div>
+      </Link>
 
 
     </div>

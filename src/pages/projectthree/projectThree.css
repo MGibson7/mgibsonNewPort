@@ -1,9 +1,9 @@
 .mainProjectThree{
-	background: rgb(0,163,37);
-background: linear-gradient(90deg, rgba(0,163,37,1) 0%, rgba(107,51,0,1) 35%, rgba(122,68,3,1) 63%, rgba(0,79,31,1) 100%);
-background-size: 400% 400%;	
-animation: gradient 15s ease infinite;
-    height: 98vh;
+	
+	background-image: linear-gradient(to right top, #00ff80, #00a537, #006800, #00bf72, #042401);
+	background-size: 400% 400%;
+	animation: gradient 10s infinite;
+    height: 100vh;
 }
 
 

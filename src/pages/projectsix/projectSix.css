@@ -1,9 +1,25 @@
-.mainProjectOne{
-	background-image: linear-gradient(to right top, #EB6122, #C9532C, #C9532C, #86383F, #431C52);
+.mainProjectSix{
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 	background-size: 400% 400%;
 	animation: gradient 10s infinite;
-    
+	
+
     height: 100vh;
+
+}
+
+video{
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
 }
 
 

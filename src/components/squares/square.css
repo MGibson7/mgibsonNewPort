@@ -1,11 +1,14 @@
 .leftSide{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-wrap:wrap;
     margin-top: 5vh;
+    text-align: center;
+    font-size:2vh;
 }
+
 .squares{
-    width: 30%;
+    width: 100%;
     background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -18,64 +21,72 @@ margin-top: 1%;
 margin-bottom: 1%;
 align-self: center;
 height: 25vh;
-margin-left: 0.5vw;
 display: flex;
 flex-direction: column;
 vertical-align: text-bottom;
   justify-content: last baseline;
   align-items: center;
+  opacity: 0.8;
+  
 
 }
+
+
 
 .squares:hover{
     border: 5px solid white;
+    opacity: 1;
 }
 
 .squareHome{
-    background-image: url("https://img.freepik.com/premium-vector/summer-cartoon-illustration-modern-cottage-house-among-trees-green-countryside-field-outside-town_134830-236.jpg?w=2000");
+    background-image: url("/public/linked.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 25%;
+    background-position: center
 }
 
-.leftSide h1{
-    text-align: center;
-    font-size:3vh;
-    opacity: 0.9;
-}
+
 
 .squareProject{
-    background-image: url("https://img.freepik.com/free-vector/hand-drawn-halloween-background_23-2149064303.jpg");
+    background-image: url("/public/hall.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 25%;
+    background-position: center;
     
 }
 
 .squareProject2{
-    background-image: url("https://www.stockvault.net/data/2019/02/27/260820/preview16.jpg");
+    background-image: url("/public/pfm.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 25%;
+    background-position: center;
 }
 
 .squareProject3{
-    background-image: url("https://img.freepik.com/premium-vector/american-football-field-with-bright-lights_24911-57587.jpg");
+    background-image: url("/public/alltime.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 25%;
+    background-position: center;
 }
 
 .squareProject4{
-    background-image: url("https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmV0ZmxpeHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-image: url("/public/algo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 25%;
+    background-position: center;
 
 }
 
 .squareProject5{
-    background-image: url("https://st.depositphotos.com/1160567/1952/i/450/depositphotos_19528501-stock-photo-net-worth-increase.jpg");
+    background-image: url("/public/mynet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+}
+
+.squareProject6{
+    background-image: url("/public/ac4biz.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 25%;
@@ -83,7 +94,7 @@ vertical-align: text-bottom;
 }
 
 .referralSquare{
-    background-image: url("https://media.istockphoto.com/photos/network-is-painted-by-hand-with-chalk-on-blackboard-picture-id1202462935?k=20&m=1202462935&s=612x612&w=0&h=vIPDqlhjnrZZwtANxSF9ojXWoChsyRqYHXpa-s4izPw=");
+    background-image: url("/public/ac4biz.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 25%;
@@ -105,8 +116,11 @@ vertical-align: text-bottom;
 
 .link{
     text-decoration: none;
+    width: 30%;
     color: white;
     cursor: pointer;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 @media screen and (max-width: 1000px){
