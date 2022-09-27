@@ -71,7 +71,8 @@
     font-size: 2vh;
   }
   .profilepic{
-    width: 55%;
+    width: 100px;
+    height: 100px;
   }
   .together{
     display: flex;
