@@ -30,3 +30,18 @@ h3{
     animation: wiggle 1.5s infinite;
 }
 
+@media screen and (max-width: 700px){
+    .projectFea button{
+        font-size: 50%;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        align-self: center;
+    }
+    .rightSide{
+        width: 100%;
+    }
+
+}

@@ -45,5 +45,8 @@
     .projectFea button{
         font-size: 50%;
     }
-
+    .iframeImg img{
+        width: 200px;
+        height: 200px;
+    }
 }
