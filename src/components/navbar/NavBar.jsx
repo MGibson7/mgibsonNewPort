@@ -4,9 +4,9 @@ import "./navbar.css"
 const NavBar = () => {
   return (
     <div className="navMain">
-      <Link to = "/">
+      <Link className="navLink" to = "/">
       <h1>MCG</h1>
-        <h1 className="port">PORTFOLIO</h1>
+      
       </Link>
         
 
