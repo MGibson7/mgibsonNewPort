@@ -7,7 +7,7 @@ const RightSideResume = () => {
     <div className = "rightSide">
       
       
-        <a href="./MGibsonCarlGibsonResume.pdf" target = "_blank" rel="noreferrer noopener"><img scrolling="no" className="resumeImg" src="./resume.png" alt="Resume"></img></a>
+        <a href="./MichaelCarlGibsonResume.pdf" target = "_blank" rel="noreferrer noopener"><img scrolling="no" className="resumeImg" src="./resume.png" alt="Resume"></img></a>
     
     
       
