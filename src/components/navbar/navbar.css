@@ -17,6 +17,10 @@ h1{
     
 }
 
+.navMain h1{
+    cursor: pointer;
+}
+
 .port{
     padding-top: 3vh;
     font-size: 2vh;
