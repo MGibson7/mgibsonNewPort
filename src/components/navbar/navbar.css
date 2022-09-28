@@ -19,6 +19,8 @@ h1{
 
 .navMain h1{
     cursor: pointer;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .port{
